@@ -1,5 +1,15 @@
 use std::collections::HashMap;
 
+/// Translates number into words
+///
+/// # Examples
+///
+/// ```
+/// let arg = 5;
+/// let answer = number_to_words_ru::number_to_words(arg);
+///
+/// assert_eq!("пять", answer);
+/// ```
 pub fn number_to_words(value: i64) -> String {
     let mut buffer = String::new();
 
