@@ -24,8 +24,8 @@ output:
 
 ## Limitations
 
-- Support value range: 0 - 999_999_999
+- Support value range: -999_999_999_999 - 999_999_999_999
 
 ## Roadmap
 
-1. Support billions
+1. Support trillions
